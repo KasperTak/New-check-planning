@@ -118,7 +118,7 @@ with tab1:
                 buslijn = buslijn.fillna(0)
                 omloopnummer = data_planning['omloop nummer']
                 
-                data = pd.read_excel('Connexxion data - 2022-2023.xlsx', sheet_name='Dienstregeling')
+                data = pd.read_excel(connexxion_file, sheet_name='Dienstregeling')
                 Startlocatie = data.startlocatie
                 Vertrektijd = data.vertrektijd
                 Eindlocatie = data.eindlocatie
