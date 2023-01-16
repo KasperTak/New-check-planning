@@ -133,7 +133,7 @@ with tab1:
                 Buslijn = data_afstand['buslijn'].fillna(0)
                 
                 
-                df = pd.read_excel('data_project_05.xlsx')
+                df = pd.read_excel(r'data_project_05 (3).xlsx')
                 tijd=df['t']
                 speed=df['WheelBasedVehicleSpeed']
                 voltage=df['DICO3_DCLinkVoltageDriveSystem']
