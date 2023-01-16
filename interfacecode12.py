@@ -124,7 +124,7 @@ with tab1:
                 Eindlocatie = data.eindlocatie
                 Buslijn_ = data.buslijn
                 
-                data_afstand = pd.read_excel('Connexxion data - 2022-2023.xlsx', sheet_name='Afstand matrix')
+                data_afstand = pd.read_excel(connexxion_file, sheet_name='Afstand matrix')
                 startlocatie_a = data_afstand.startlocatie
                 eindlocatie_a = data_afstand.eindlocatie
                 minimale_tijd = data_afstand['min reistijd in min']
