@@ -346,7 +346,7 @@ with tab1:
                             reistijd.append(minuten)
                 
                 DRU=0
-                for i in range(len(data_planning-1)):
+                for i in range(len(data_planning)):
                     if buslijn[i]!=0:
                         DRU+=reistijd[i]
                 DPRU=np.sum(reistijd)  
